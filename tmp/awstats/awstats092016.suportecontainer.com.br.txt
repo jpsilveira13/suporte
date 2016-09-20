@@ -1,0 +1,301 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201609 will be lost/reset.
+# Last config file used to build this data file was /home/suporte123/tmp/awstats/awstats.suportecontainer.com.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2022                
+POS_TIME 2696                
+POS_VISITOR 7360                
+POS_DAY 8294                
+POS_DOMAIN 3394                
+POS_LOGIN 3643                
+POS_ROBOT 3798                
+POS_WORMS 3987                
+POS_EMAILSENDER 4118                
+POS_EMAILRECEIVER 4261                
+POS_SESSION 8499                
+POS_SIDER 8705                
+POS_FILETYPES 4396                
+POS_DOWNLOADS 4618                
+POS_OS 4666                
+POS_BROWSER 4802                
+POS_SCREENSIZE 4983                
+POS_UNKNOWNREFERER 5057                
+POS_UNKNOWNREFERERBROWSER 5144                
+POS_ORIGIN 5226                
+POS_SEREFERRALS 5363                
+POS_PAGEREFS 5507                
+POS_SEARCHWORDS 5655                
+POS_KEYWORDS 5807                
+POS_MISC 2360                
+POS_ERRORS 5866                
+POS_CLUSTER 3499                
+POS_SIDER_404 5970                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160919074534 5 844 13058463652104
+FirstTime 20160914145141
+LastTime 20160919074533
+LastUpdate 20160919091835 5 0 5 0 0
+TotalVisits 26                  
+TotalUnique 20                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 20                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 4 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 13 107 2960439 16 24 326740
+8 6 53 516741 18 19 294066
+9 25 170 4877265 28 40 604469
+10 44 320 15254482 31 38 539121
+11 7 53 2968070 7 10 114359
+12 1 47 43021 5 5 81685
+13 0 0 0 0 0 0
+14 6 67 3250314 5 6 81685
+15 6 52 132133 5 6 81685
+16 14 130 3032576 24 73 3219031
+17 6 52 2925049 16 18 261392
+18 26 220 5998470 32 34 522784
+19 0 0 0 5 6 81685
+20 12 104 5850098 12 20 296100
+21 12 114 2969191 11 22 310403
+22 31 269 13871618 33 41 604469
+23 13 110 3401962 15 20 310403
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+br 207 1802 63440197
+us 15 66 4611232
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+google[_+\s]web[_+\s]preview 52 2924965 20160917165435 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+Unknown 3 32382 0 0
+js 375 5869317 0 0
+jpg 497 45436870 0 0
+png 534 3357796 0 0
+ttf 5 316468 0 0
+css 240 6971663 0 0
+woff 165 3951024 0 0
+html 49 2115909 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+winnt 704 83
+win7 622 68
+linux 3 3
+linuxandroid 487 62
+ios_iphone 52 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 6
+chrome44.0.2403.133 52 6
+chrome49.0.2623.75 3 3
+safari9.0 52 6
+android 53 7
+chrome52.0.2743.98 382 49
+chrome52.0.2743.116 1326 151
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 48 48
+From1 0 0
+From2 0 0
+From3 0 0
+From4 174 1820
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 2 34708
+404 292 4770404
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 15
+/features.html 3 http://www.suportecontainer.com.br/
+/js/gmaps.min.js.map 4 -
+/images/ico/apple-touch-icon-114-precomposed.png 8 http://www.suportecontainer.com.br/
+/service.html 1 http://www.suportecontainer.com.br/
+/fonts/montserrat-semibold-webfont.woff2 46 http://www.suportecontainer.com.br/css/main.css
+/images/ico/apple-touch-icon-57-precomposed.png 9 http://www.suportecontainer.com.br/
+/css/bootstrap.min.css.map 14 -
+/fonts/fontawesome-webfont.woff2 47 http://www.suportecontainer.com.br/css/font-awesome.min.css
+/project-one.html 4 http://www.suportecontainer.com.br/
+/fonts/montserrat-bold-webfont.woff2 46 http://www.suportecontainer.com.br/css/main.css
+/images/brand/vli.png 1 http://suportecontainer.com.br/
+/fonts/montserrat-extrabold-webfont.woff2 46 http://www.suportecontainer.com.br/css/main.css
+/images/ico/apple-touch-icon-72-precomposed.png 8 http://www.suportecontainer.com.br/
+/images/ico/apple-touch-icon-144-precomposed.png 9 http://www.suportecontainer.com.br/
+/fonts/montserrat-regular-webfont.woff2 46 http://www.suportecontainer.com.br/css/main.css
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 20
+189.41.72.165 63 519 18859912 20160915100807
+189.41.84.5 26 222 11280560 20160914232229
+186.210.207.26 25 209 5979077 20160916184921
+189.41.139.171 19 168 6301165 20160914231555
+186.210.146.79 18 158 3206479 20160915101038
+177.77.139.219 7 53 2968154 20160917102732
+189.41.214.41 6 52 132133 20160915153001
+186.210.192.80 6 52 2925049 20160915111455
+186.210.144.78 6 52 2924965 20160916210727
+191.177.185.42 6 52 2925049 20160916203558
+186.210.250.251 6 62 44226 20160914214159
+179.126.208.233 6 52 289061 20160917090526
+189.41.33.242 6 52 2636297 20160915220625
+177.191.83.24 6 52 2925049 20160916201504
+66.249.85.14 6 28 1957879 20160917095337
+66.249.85.13 5 23 1842389 20160917095337
+66.249.83.156 2 2 86042 20160918111108
+189.41.36.90 1 47 43021 20160917120030
+66.249.85.15 1 12 681901 20160917095337
+66.249.83.157 1 1 43021 20160919074533 20160919074533 /
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20160914 70 648 23865820 6
+20160915 80 637 21520001 7
+20160916 43 365 14754140 4
+20160917 27 216 7825426 7
+20160918 1 1 43021 1
+20160919 1 1 43021 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 2
+2mn-5mn 1
+15mn-30mn 1
+1h+ 1
+0s-30s 18
+5mn-15mn 1
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/ 49 2115909 25 4
+/fonts/montserrat-semibold-webfont.woff 33 548592 0 9
+/fonts/fontawesome-webfont.woff 33 1788248 0 4
+/fonts/montserrat-regular-webfont.woff 33 541992 0 1
+/fonts/montserrat-bold-webfont.woff 33 539704 0 0
+/fonts/montserrat-extrabold-webfont.woff 33 532488 0 1
+/contato 3 32382 0 3
+/fonts/montserrat-semibold-webfont.ttf 1 45140 1 1
+/fonts/montserrat-regular-webfont.ttf 1 44516 0 0
+/fonts/montserrat-extrabold-webfont.ttf 1 44140 0 0
+/fonts/fontawesome-webfont.ttf 1 138204 0 1
+/fonts/montserrat-bold-webfont.ttf 1 44468 0 1
+END_SIDER
