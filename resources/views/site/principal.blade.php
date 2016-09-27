@@ -13,30 +13,6 @@
     <div class="services">
         <div class="container">
             <div class="row">
-                <!--<div class="col-sm-4 no-padding">
-                    <div class="service crane-lifting image-bg">
-                        <div class="overlay"></div>
-                        <div class="image-box">
-                            <img class="img-responsive" src="images/service/1.png" alt="Image">
-                        </div>
-                        <div class="box-title">
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet, cons. adipisicing elit, sed do eiusmod. </p>
-                        </div>
-                    </div>
-                </div> -->
-                <!--<div class="col-sm-4 no-padding">
-                    <div class="service home-plumbing image-bg">
-                        <div class="overlay"></div>
-                        <div class="image-box">
-                            <img class="img-responsive" src="images/service/2.png" alt="Image">
-                        </div>
-                        <div class="box-title">
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet, cons. adipisicing elit, sed do eiusmod. </p>
-                        </div>
-                    </div>
-                </div> -->
                 <div class="col-sm-4 no-padding">
                     <div class="service house-plans image-bg">
                         <div class="overlay"></div>
@@ -51,7 +27,7 @@
                 </div>
             </div>
             <div class="row service-title">
-                <h4>Lorem ipsum dolor sit amet, cons. adipisicing elit, sed do eiusmod.</h4>
+                <h4>Executamos seu projeto, contando com profissionais qualificados.</h4>
             </div>
         </div><!-- container -->
     </div><!-- services -->
@@ -59,7 +35,7 @@
     <div class="features-section section-padding">
         <div class="container">
             <div class="section-title text-center">
-                <h1>Por que escolher a suporte container?</h1>
+                <h1>Por que escolher a Suporte Container?</h1>
                 <h2>Nossos diferenciais são únicos</h2>
             </div>
             <div class="row">
@@ -163,116 +139,6 @@
             </div><!-- row -->
         </div><!-- container -->
     </div><!-- features section -->
-    <!--
-        <div class="work-process image-bg">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5 hidden-xs hidden-sm">
-                        <div class="process-image">
-                            <img class="img-responsive" src="images/process/1.png" alt="image">
-                        </div>
-                    </div>
-                    <div class="col-md-7 col-sm-12">
-                        <div class="process-accordion">
-                            <div class="process-info">
-                                <div class="section-title">
-                                    <h1>Process We Follow</h1>
-                                    <h2>We Satisfy our Clients</h2>
-                                </div>
-                                <div class="panel-group" id="process-accordion" role="tablist">
-                                    <div class="panel panel-default active-process">
-                                        <div class="panel-heading" role="tab" id="initiation">
-                                            <div class="process-number">
-                                                <img class="img-responsive" src="images/process/2.png" alt="image">
-                                            </div>
-                                            <div class="process-bg">
-                                                <img class="img-responsive" src="images/process/6.png" alt="image">
-                                            </div>
-                                            <h4 class="panel-title">
-                                                <a role="button" data-toggle="collapse" data-parent="#process-accordion" href="#process" aria-expanded="true" aria-controls="process">
-                                                    Project Initiation
-                                                </a>
-                                            </h4>
-                                        </div>
-                                        <div id="process" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="initiation">
-                                            <div class="panel-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod fore to tempor incididunt ut labore et dolore magna aliqua ut enim ad.</p>
-                                            </div>
-                                        </div>
-                                    </div><!-- panel-default -->
-
-    <!--  <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="selection">
-              <div class="process-number">
-                  <img class="img-responsive" src="images/process/3.png" alt="image">
-              </div>
-              <div class="process-bg">
-                  <img class="img-responsive" src="images/process/7.png" alt="image">
-              </div>
-              <h4 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#process-accordion" href="#process-one" aria-expanded="true" aria-controls="process-one">
-                      Achitect Selection
-                  </a>
-              </h4>
-          </div>
-          <div id="process-one" class="panel-collapse collapse" role="tabpanel" aria-labelledby="selection">
-              <div class="panel-body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod fore to tempor incididunt ut labore et dolore magna aliqua ut enim ad.</p>
-              </div>
-          </div>
-      </div><!-- panel-default -->
-
-    <!--<div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="programs">
-            <div class="process-number">
-                <img class="img-responsive" src="images/process/4.png" alt="image">
-            </div>
-            <div class="process-bg">
-                <img class="img-responsive" src="images/process/8.png" alt="image">
-            </div>
-            <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#process-accordion" href="#process-two" aria-expanded="true" aria-controls="process-two">
-                    Builing Programs
-                </a>
-            </h4>
-        </div>
-        <div id="process-two" class="panel-collapse collapse" role="tabpanel" aria-labelledby="programs">
-            <div class="panel-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod fore to tempor incididunt ut labore et dolore magna aliqua ut enim ad.</p>
-            </div>
-        </div>
-    </div><!-- panel-default -->
-
-    <!-- <div class="panel panel-default">
-         <div class="panel-heading" role="tab" id="finalize">
-
-             <div class="process-number">
-                 <img class="img-responsive" src="images/process/5.png" alt="image">
-             </div>
-             <div class="process-bg">
-                 <img class="img-responsive" src="images/process/9.png" alt="image">
-             </div>
-             <h4 class="panel-title">
-                 <a role="button" data-toggle="collapse" data-parent="#process-accordion" href="#process-three" aria-expanded="true" aria-controls="process-three">
-                     Finalize Construction
-                 </a>
-             </h4>
-         </div>
-         <div id="process-three" class="panel-collapse collapse" role="tabpanel" aria-labelledby="finalize">
-             <div class="panel-body">
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod fore to tempor incididunt ut labore et dolore magna aliqua ut enim ad.</p>
-             </div>
-         </div>
-     </div><!-- panel-default -->
-    </div>
-    </div>
-    </div>
-    </div>
-    </div><!-- row -->
-    </div><!-- container -->
-    </div><!-- process -->
-
     <div class="service-section section-padding">
         <div class="container">
             <div class="section-title text-center">

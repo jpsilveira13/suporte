@@ -72,12 +72,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                   <a class="logo" href="{{url('/')}}"><img class="img-responsive" src="{{url('images/container/logopadrao.png')}}" alt="Logo"></a>
+                    <a class="logo" href="{{url('/')}}"><img class="img-responsive" src="{{url('images/container/logopadrao.png')}}" alt="Logo"></a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li @if(Request::is('/')) class="active" @endif><a href="{{url('/')}}">Home</a></li>
-                        <li><a href="features.html">Diferenciais</a></li>
+                        <li><a href="{{url('diferenciais')}}">Diferenciais</a></li>
                         <li><a @if(Request::is('sobre')) class="active" @endif href="{{url('sobre')}}">Sobre Nós</a></li>
                         <li><a @if(Request::is('servicos')) class="active" @endif href="{{url('servicos')}}">Serviços</a></li>
                         <li><a href="#">Projetos</a></li>
@@ -109,16 +109,13 @@
             <img class="img-responsive" src="images/brand/vli.png" alt="Brand image">
         </div>
         <div class="brand-image">
-            <img class="img-responsive" src="images/brand/cartago.png" alt="Brand image">
+            <img class="img-responsive" src="images/brand/egp.png" alt="Brand image">
         </div>
         <div class="brand-image">
-            <img class="img-responsive" src="images/brand/marco.png" alt="Brand image">
+            <img class="img-responsive" src="images/brand/constrenge.png" alt="Brand image">
         </div>
         <div class="brand-image">
-            <img class="img-responsive" src="images/brand/mgo.png" alt="Brand image">
-        </div>
-        <div class="brand-image">
-            <img class="img-responsive" src="images/brand/transpetro.png" alt="Brand image">
+            <img class="img-responsive" src="images/brand/quanta.png" alt="Brand image">
         </div>
     </div>
 </div><!-- brands -->

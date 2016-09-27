@@ -28,3 +28,11 @@ Route::get('sobre',function(){
 Route::get('servicos',function(){
    return view('site.servicos');
 });
+
+Route::get('diferenciais',function(){
+   return view('site.diferenciais');
+});
+
+Route::get('equipamentos',function(){
+    return view('site.equipamentos');
+});

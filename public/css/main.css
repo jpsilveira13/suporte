@@ -1432,7 +1432,7 @@ a:after, a:before, .btn.btn-primary i,
 	width: 100%;
 	height: 100%;
 	background-color: rgba(54, 72, 89, 0.85);
-	border: 20px solid rgba(243, 204, 41, 0.76);
+	border: 20px solid rgba(226,17,21, 0.76);
 	opacity: 0;
 	-moz-transform: scale(0.5);
 	-webkit-transform: scale(0.5);
@@ -1480,7 +1480,7 @@ a:after, a:before, .btn.btn-primary i,
 	text-align: center;
 	font-size: 16px;
 	color: #2c3e50;
-	background-color: #fcd846;
+	background-color: #E21115;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
@@ -2475,7 +2475,7 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 .progress-bar {
-	background-color: #fcd846;
+	background-color: #D02B0B;
 	box-shadow:none;
 }
 
@@ -2726,7 +2726,7 @@ a:after, a:before, .btn.btn-primary i,
 
 .carousel-controls .carousel-arrow .left:hover, 
 .carousel-controls .carousel-arrow .right:hover {
-	background-color: #f3cc29;
+	background-color: #D02B0B;
 }
 
 .details-info {
@@ -2748,7 +2748,7 @@ a:after, a:before, .btn.btn-primary i,
 
 .details-list li {
 	background-color: #f8f8f8;
-	border-left: 3px solid #f3cc29;
+	border-left: 3px solid #D02B0B;
 	padding:10px 30px;
 	margin-top: 20px;
 	font-size: 14px;
@@ -2782,7 +2782,7 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 .details-list li span.cateagory a:hover {
-	color:#f3cc29;
+	color:#D02B0B;
 }
 
 .share-project {
@@ -2833,7 +2833,7 @@ a:after, a:before, .btn.btn-primary i,
 
 .details-info .btn.btn-primary:hover i {
 	color: #2c3e50;
-	background-color: #f3cc29;
+	background-color: #D02B0B;
 }
 
 .details-slider {
@@ -2865,7 +2865,7 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 .prev-next a:hover {
-	color: #f3cc29;
+	color: #D02B0B;
 }
 
 .prev-next .prev {
@@ -2943,6 +2943,11 @@ a:after, a:before, .btn.btn-primary i,
 	border-right:1px solid #cdcdcd;
 }
 
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	display: block;
+	max-width: 100%!important;
+	height: auto;
+}
 .blog-details .entry-meta li:first-child {
 	padding-left:0;
 	border-left:0;
