@@ -16,7 +16,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="about-image">
-                            <img class="img-responsive" src="{{url('images/about/about.jpg')}}" alt="Image">
+                            <img class="center-block img-responsive" src="{{url('images/about/about.jpg')}}" alt="Image">
                         </div>
                     </div>
                     <div class="col-md-6">

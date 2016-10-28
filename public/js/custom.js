@@ -217,8 +217,21 @@ jQuery(function ($) {
 		});
 	
 	});
-	
-	
+
+	var botao_topo = $("#totop");
+
+	$(window).scroll(function() {
+		var windowScroll_t;
+		//TOTOP
+		clearTimeout(windowScroll_t);
+		windowScroll_t = setTimeout(function(){
+			if($(this).scrollTop() > 0){
+				botao_topo.addClass('ativo');
+			}else{
+				botao_topo.removeClass('ativo');
+			}
+		}, 300);
+	});
 	
 // script end
 });

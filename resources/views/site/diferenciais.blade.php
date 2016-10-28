@@ -59,7 +59,7 @@
                                     </div>
                                     <div class="col-sm-6 no-padding">
                                         <div class="features-info">
-                                            <p>A <strong>Suporte container</strong> conta com uma equipe altamente qualificada , nossos colaboradores possuem treinamentos adequados, além de um processo de qualificação interna. Oferecemos aos nossos clientes serviços e produtos com qualidade, garantia e custo benefício diferenciado. Equipe com grande experiência na realização de reparos e modificações na parte estrutural de containers . Qualidade garantida das modificações e reparos realizados através de certificados emitidos pelos fabricantes dos materiais. Possuímos um quadro de vistoriadores, e trabalhamos com um sistema de controle de qualidade de nível exigente.</p>
+                                            <p>A <strong>Suporte container</strong> conta com uma equipe altamente qualificada , nossos colaboradores possuem treinamentos adequados, além de um processo de qualificação interna. Oferecemos aos nossos clientes serviços e produtos com qualidade, garantia e custo benefício diferenciado. Equipe com grande experiência na realização de reparos e modificações na parte estrutural de containers.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -86,8 +86,7 @@
                                     <div class="col-sm-6 no-padding">
                                         <div class="features-info">
                                             <p>Atendendo a rigorosa exigência do mercado, a legislação e sempre encontrando a melhor relação custo benefício para nossos clientes fomos aumentando nossa equipe, qualificando os mesmos e nos tornando uma das maiores empresas especializadas em containers do Brasil.</p>
-                                                <p>Atuante no mercado nacional, a Suporte ampliou seus produtos não apenas aos convencionais containers, mas inovou com a construção de casas container, escritórios container, bilheterias container, banheiros em container e demais projetos. Todos garantindo durabilidade, comodidade, baixo custo e consciência ecológica.
-                                            </p>
+
                                         </div>
                                     </div>
                                     <div class="col-sm-6 no-padding">

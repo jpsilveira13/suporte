@@ -105,7 +105,7 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="service-info">
-                                <h4>Manutenção, reparos e modificações</h4>
+                                <h4>Manutenção e modificações</h4>
                                 <p>Oferecemos erviços de solda conta com uma equipe altamente qualificada, com grande experiência na realização de reparos e modificações na parte estrutural de containers . Qualidade garantida das modificações e reparos realizados através de certificados emitidos pelos fabricantes dos materiais.</p>
                                 <p>Possuímos um quadro de vistoriadores, e trabalhamos com um sistema de controle de qualidade, realizando pós reparos de 100 % das unidades reparadas, e disponibilizamos as fotos via sistema aos clientes.</p>
                             </div>

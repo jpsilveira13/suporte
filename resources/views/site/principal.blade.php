@@ -4,8 +4,10 @@
         <div class="overlay"></div>
         <div class="home-content">
             <div class="container text-center">
-                <h1>Bem vindo!</h1>
-                <h2>Impulsionando sua <span>Obra</span></h2>
+                <div class="col-md-12">
+                    <h1>Bem vindo!</h1>
+                    <h2>Impulsionando sua <span>Obra</span></h2>
+                </div>
             </div><!-- container -->
         </div><!-- home content -->
     </div><!-- home -->
@@ -16,27 +18,25 @@
                 <div class="col-sm-4 no-padding">
                     <div class="service house-plans image-bg">
                         <div class="overlay"></div>
-                        <div class="image-box">
-                            <img class="img-responsive" src="images/service/3.png" alt="Image">
-                        </div>
                         <div class="box-title">
-                            <h3>Lorem Ipsum</h3>
-                            <p>Lorem ipsum dolor sit amet, cons. adipisicing elit, sed do eiusmod.</p>
+                            <h3 style="line-height: 35px;text-align:center;font-size:1.8em">Entregamos em todo território nacional.</h3>
+
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row service-title">
-                <h4>Executamos seu projeto, contando com profissionais qualificados.</h4>
+                <h4 style="font-size: 1.9em;">Venda e locação de container de acordo com seu projeto.</h4>
             </div>
         </div><!-- container -->
     </div><!-- services -->
 
-    <div class="features-section section-padding">
+    <div class="features-section section-padding estilo-novo image-bg">
+        <div class="overlay"></div>
         <div class="container">
             <div class="section-title text-center">
                 <h1>Por que escolher a Suporte Container?</h1>
-                <h2>Nossos diferenciais são únicos</h2>
+                <h2 style="color: #fff">Nossos diferenciais são únicos</h2>
             </div>
             <div class="row">
                 <div class="col-md-6 col-lg-5 no-padding">
@@ -82,12 +82,7 @@
                                     </div>
                                     <div class="col-sm-6 no-padding">
                                         <div class="features-info">
-                                            <p>Lorem ipsum dolor sit amet, consectetur for adipisicing elit, sed do eiusmod tempor to incidiunt ut labore et dolore magna aliquai. Ut enim ad minim veniam, quis nostr.</p>
-                                            <ul class="features-list">
-                                                <li><i class="fa fa-angle-right"></i>Vestibulum pulvinar commodo.</li>
-                                                <li><i class="fa fa-angle-right"></i>Pellentesque id massa et ligula con.</li>
-                                                <li><i class="fa fa-angle-right"></i>Vivamus sed nunc sed ligula rhon.</li>
-                                            </ul>
+                                            <p>A <strong>Suporte container</strong> conta com uma equipe altamente qualificada , nossos colaboradores possuem treinamentos adequados, além de um processo de qualificação interna. Oferecemos aos nossos clientes serviços e produtos com qualidade, garantia e custo benefício diferenciado. Equipe com grande experiência na realização de reparos e modificações na parte estrutural de containers.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -102,12 +97,8 @@
                                     </div>
                                     <div class="col-sm-6 no-padding">
                                         <div class="features-info">
-                                            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et.</p>
-                                            <ul class="features-list">
-                                                <li><i class="fa fa-angle-right"></i>Vel illum dolore eu feugiat.</li>
-                                                <li><i class="fa fa-angle-right"></i>Pellentesque id massa et ligula con.</li>
-                                                <li><i class="fa fa-angle-right"></i>Vivamus sed nunc sed ligula rhon.</li>
-                                            </ul>
+                                            <p>Pensando em cada cliente como único, analisamos seu projeto e trabalhamos com prazo real. Assim, ao assumirmos esse compromisso, colocamos como objetivo principal o prazo aliado à qualidade para cumprirmos com seriedade e o entregarmos ao cliente na certeza da sua total satisfação.</p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -117,15 +108,10 @@
                                 <div class="row">
                                     <div class="col-sm-6 no-padding">
                                         <div class="features-info">
-                                            <p>Lorem ipsum dolor sit amet, consectetur for adipisicing elit, sed do eiusmod tempor to incidiunt ut labore et dolore magna aliquai. Ut enim ad minim veniam, quis nostr.</p>
-                                            <ul class="features-list">
-                                                <li><i class="fa fa-angle-right"></i>Vestibulum pulvinar commodo.</li>
-                                                <li><i class="fa fa-angle-right"></i>Pellentesque id massa et ligula con.</li>
-                                                <li><i class="fa fa-angle-right"></i>Vivamus sed nunc sed ligula rhon.</li>
-                                            </ul>
+                                            <p>Atendendo a rigorosa exigência do mercado, a legislação e sempre encontrando a melhor relação custo benefício para nossos clientes fomos aumentando nossa equipe, qualificando os mesmos e nos tornando uma das maiores empresas especializadas em containers do Brasil.</p>
+
                                         </div>
                                     </div>
-
                                     <div class="col-sm-6 no-padding">
                                         <div class="feature-image image-right">
                                             <img class="img-responsive" src="{{'images/container/compromisso.jpg'}}" alt="image">
@@ -147,10 +133,10 @@
             </div>
             <div class="service-tabs text-center">
                 <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#residential" data-toggle="tab">Container para Área industrial</a></li>
-                    <li role="presentation"><a href="#industrial" data-toggle="tab">Container para área Construção</a></li>
-                    <li role="presentation"><a href="#plumbing" data-toggle="tab">Container para Armazenamento</a></li>
-                    <li role="presentation"><a href="#shipment" data-toggle="tab">Vendas de Containers</a></li>
+                    <li role="presentation" class="active"><a href="#residential" data-toggle="tab">Container Marítimo</a></li>
+                    <li role="presentation"><a href="#industrial" data-toggle="tab">Container Reefer</a></li>
+                    <li role="presentation"><a href="#plumbing" data-toggle="tab">Manutenções e modificações</a></li>
+                    <li role="presentation"><a href="#shipment" data-toggle="tab">Casas, módulos e reparos</a></li>
                 </ul>
             </div>
 
@@ -159,19 +145,13 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="service-image">
-                                <img class="img-responsive" src="{{url('images/container/imgindustrial.jpg')}}" alt="image">
+                                <img class="img-responsive" src="{{url('images/service/container-mari.jpg')}}" alt="image">
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="service-info">
-                                <h4>Área Industrial</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm temporaty incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut aliqui off exo ea commodo consequat. Duis too aute irure dolor in reprehenderit. volupt velit esse cillum to the end.</p>
-                                <ul class="service-structure list-inline">
-                                    <li class="planing"><a href="#"><i class="fa fa-search"></i></a><span>Planejamento</span></li>
-                                    <li class="analysis"><a href="#"><i class="fa fa-pencil"></i></a><span>Análise</span></li>
-                                    <li class="construc"><a href="#"><i class="fa fa-hand-pointer-o"></i></a><span>Entrega</span></li>
-                                    <li class="launch"><a href="#"><i class="fa fa-check"></i></a><span>Aceitação</span></li>
-                                </ul>
+                                <h4>Container marítimo</h4>
+                                <p>Trata-se de um container de aço corten, com assoalho de compensado naval em madeira de 28mm de espessura. É ideal para depósito e armazenagem de carga seca em geral.                                                                 Utilizados como depósitos em seu estado original, também pode transformar-se em escritório, sanitários, bilheterias e ou conforme a necessidade e projeto.</p>
                             </div>
                         </div>
                     </div><!-- row -->
@@ -181,14 +161,16 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="service-info">
-                                <h4>Container para construção</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm temporaty incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut aliqui off exo ea commodo consequat. Duis too aute irure dolor in reprehenderit. volupt velit esse cillum to the end.</p>
-                                <p>Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut aliqui off exo ea commodo consequat. Duis too aute irure dolor in reprehenderit. volupt velit esse cillum to the end.</p>
+                                <h4>Container Reefer</h4>
+                                <p>Também conhecido como container frigorífico ou refrigerado, trabalha com temperaturas entre +25ºC a -25ºC.
+                                    Ideal para armazenagem de congelados também é utilizado como câmara frigorífica estática, tendo a opção de se criar dois ambientes, congelado e resfriado, a partir de um único maquinário.
+                                </p>
+                                <p>Seu excelente isolamento térmico com até 15cm de poliuretano injetado, não se compara aos painéis de câmara frigoríficas existentes no mercado. Sua mobilidade imediata, sem comprometimento de sua estrutura é mais uma vantagem que esse tipo de container oferece.</p>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="service-image">
-                                <img class="img-responsive" src="{{url('images/container/container-construcao.jpg')}}" alt="image">
+                                <img class="img-responsive" src="{{url('images/service/reefer.jpg')}}" alt="image">
                             </div>
                         </div>
                     </div><!-- row -->
@@ -196,13 +178,16 @@
 
                 <div role="tabpanel" class="tab-pane fade" id="plumbing">
                     <div class="row">
-                        <div class="col-sm-12">
-                            <div class="service-item">
-                                <div class="service-info">
-                                    <h4>Container Armazenamento</h4>
-                                    <p> Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm temporaty incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nost exercitation ullamco laboris nisi ut aliqui off exo ea commodo consequat. </p>
-                                </div>
+                        <div class="col-sm-6">
+                            <div class="service-image">
+                                <img class="img-responsive" src="{{url('images/service/reparos.jpg')}}" alt="image">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="service-info">
+                                <h4>Manutenção, reparos e modificações</h4>
+                                <p>Oferecemos erviços de solda conta com uma equipe altamente qualificada, com grande experiência na realização de reparos e modificações na parte estrutural de containers . Qualidade garantida das modificações e reparos realizados através de certificados emitidos pelos fabricantes dos materiais.</p>
+                                <p>Possuímos um quadro de vistoriadores, e trabalhamos com um sistema de controle de qualidade, realizando pós reparos de 100 % das unidades reparadas, e disponibilizamos as fotos via sistema aos clientes.</p>
                             </div>
                         </div>
                     </div><!-- row -->
@@ -212,21 +197,14 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="service-info">
-                                <h4>Venda de Container</h4>
-                                <p> Typi non hoabent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm temporaty incididunt ut labore et dolore magna aliqua.</p>
+                                <h4>Casas, módulos e escritórios</h4>
+                                <p>TA Suporte é referência no mercado e especialista em transformações de containers, utilizando material de primeira qualidade. Utilizamos equipamentos que oferecem um melhor acabamento durante os cortes de materiais (Máquinas de Plasma) e soldas (Máquinas de Soldas Mig e TIG).
+                                </p>
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="service-info">
-                                <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
-                                <ul>
-                                    <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Cargo shipment consectetur adipisicing elit</li>
-                                    <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Typi non habent claritatem insitam</li>
-                                    <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Investigationes demonstraverunt lectores legere me lius quod </li>
-                                    <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Humanitatis per seacula quarta decima et quinta decima</li>
-                                    <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> Ut enim ad minim veniam, quis nost exercitation ullamco</li>
-                                </ul>
+                            <div class="service-image">
+                                <img class="img-responsive" src="{{url('images/service/casas.jpg')}}" alt="image">
                             </div>
                         </div>
                     </div><!-- row -->
@@ -241,7 +219,7 @@
             <div class="section-title">
                 <div class="container">
                     <h1>Participação em inovação</h1>
-                    <h2>Obras que participamos</h2>
+                    <h2>Nossos projetos</h2>
                 </div>
             </div>
         </div>
@@ -249,39 +227,39 @@
             <div class="portfolio-slider">
                 <div class="portfolio">
                     <div class="portfolio-item">
-                        <img class="img-responsive" src="images/portfolio/1.jpg" alt="image">
+                        <img class="img-responsive" src="{{url('images/portfolio/imagem1.jpg')}}" alt="image">
                     </div>
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
-                            <h4>Lorem Ipsumn</h4>
+                            <h4>Container Construção</h4>
                             <p>Lorem Ipsumn</p>
                         </div>
                         <div class="portfolio-icons">
-                            <a href="project-details.html"><i class="fa fa-link"></i></a>
-                            <a class="image-link" href="images/portfolio/1.jpg"><i class="fa fa-search"></i></a>
+                            <a href="{{url('equipamentos')}}"><i class="fa fa-link"></i></a>
+                            <a class="image-link" href="{{url('images/portfolio/imagem1.jpg')}}"><i class="fa fa-search"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio">
                     <div class="portfolio-item">
-                        <img class="img-responsive" src="images/portfolio/2.jpg" alt="image">
+                        <img class="img-responsive" src="{{url('images/portfolio/imagem8.jpg')}}" alt="image">
                     </div>
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
-                            <h4>Lorem Ipsumn</h4>
+                            <h4>Construção Container</h4>
                             <p>Lorem Ipsumn</p>
                         </div>
                         <div class="portfolio-icons">
-                            <a href="project-details.html"><i class="fa fa-link"></i></a>
-                            <a class="image-link" href="images/portfolio/2.jpg"><i class="fa fa-search"></i></a>
+                            <a href="{{url('equipamentos')}}"><i class="fa fa-link"></i></a>
+                            <a class="image-link" href="{{url('images/portfolio/imagem8.jpg')}}"><i class="fa fa-search"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio">
                     <div class="portfolio-item">
-                        <img class="img-responsive" src="images/portfolio/3.jpg" alt="image">
+                        <img class="img-responsive" src="{{url('images/portfolio/imagem3.jpg')}}" alt="image">
                     </div>
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
@@ -289,15 +267,15 @@
                             <p>ILorem Ipsumn</p>
                         </div>
                         <div class="portfolio-icons">
-                            <a href="project-details.html"><i class="fa fa-link"></i></a>
-                            <a class="image-link" href="images/portfolio/3.jpg"><i class="fa fa-search"></i></a>
+                            <a href="{{url('equipamentos')}}"><i class="fa fa-link"></i></a>
+                            <a class="image-link" href="{{url('images/portfolio/imagem3.jpg')}}"><i class="fa fa-search"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio">
                     <div class="portfolio-item">
-                        <img class="img-responsive" src="images/portfolio/4.jpg" alt="image">
+                        <img class="img-responsive" src="{{url('images/portfolio/imagem4.jpg')}}" alt="image">
                     </div>
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
@@ -305,15 +283,15 @@
                             <p>Lorem Ipsumn</p>
                         </div>
                         <div class="portfolio-icons">
-                            <a href="project-details.html"><i class="fa fa-link"></i></a>
-                            <a class="image-link" href="images/portfolio/4.jpg"><i class="fa fa-search"></i></a>
+                            <a href="{{url('equipamentos')}}"><i class="fa fa-link"></i></a>
+                            <a class="image-link" href="{{url('images/portfolio/imagem4.jpg')}}"><i class="fa fa-search"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio">
                     <div class="portfolio-item">
-                        <img class="img-responsive" src="images/portfolio/2.jpg" alt="image">
+                        <img class="img-responsive" src="{{url('images/portfolio/imagem5.jpg')}}" alt="image">
                     </div>
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
@@ -321,15 +299,15 @@
                             <p>Lorem Ipsumn</p>
                         </div>
                         <div class="portfolio-icons">
-                            <a href="project-details.html"><i class="fa fa-link"></i></a>
-                            <a class="image-link" href="images/portfolio/2.jpg"><i class="fa fa-search"></i></a>
+                            <a href="{{url('equipamentos')}}"><i class="fa fa-link"></i></a>
+                            <a class="image-link" href="{{url('images/portfolio/imagem5.jpg')}}"><i class="fa fa-search"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio">
                     <div class="portfolio-item">
-                        <img class="img-responsive" src="images/portfolio/3.jpg" alt="image">
+                        <img class="img-responsive" src="{{url('images/portfolio/imagem6.jpg')}}" alt="image">
                     </div>
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
@@ -337,15 +315,14 @@
                             <p>Lorem Ipsumn</p>
                         </div>
                         <div class="portfolio-icons">
-                            <a href="project-details.html"><i class="fa fa-link"></i></a>
-                            <a class="image-link" href="images/portfolio/3.jpg"><i class="fa fa-search"></i></a>
+                            <a href="{{url('equipamentos')}}"><i class="fa fa-link"></i></a>
+                            <a class="image-link" href="{{url('images/portfolio/imagem6.jpg')}}"><i class="fa fa-search"></i></a>
                         </div>
                     </div>
                 </div>
-
                 <div class="portfolio">
                     <div class="portfolio-item">
-                        <img class="img-responsive" src="images/portfolio/1.jpg" alt="image">
+                        <img class="img-responsive" src="{{url('images/portfolio/imagem11.jpg')}}" alt="image">
                     </div>
                     <div class="portfolio-overlay">
                         <div class="portfolio-info">
@@ -353,8 +330,8 @@
                             <p>Lorem Ipsumn</p>
                         </div>
                         <div class="portfolio-icons">
-                            <a href="project-details.html"><i class="fa fa-link"></i></a>
-                            <a class="image-link" href="images/portfolio/1.jpg"><i class="fa fa-search"></i></a>
+                            <a href="{{url('equipamentos')}}"><i class="fa fa-link"></i></a>
+                            <a class="image-link" href="{{url('images/portfolio/imagem11.jpg')}}"><i class="fa fa-search"></i></a>
                         </div>
                     </div>
                 </div>
@@ -373,8 +350,9 @@
                             <i class="fa fa-quote-left"></i>
                         </div>
                         <div class="testimonial-info">
-                            <p>Lorem Ipsum is simply dummy text of the printing and pesetting to industry. Lorem Ipsum has been the industry's standard dummy tet ever since they 1500s, </p>
-                            <h5>Ashiful Haque | CEO, AsceticDesigners</h5>
+                            <h5>Henrique Massa | Diretor Engenharia - Constrenge Ferrovia</h5>
+                            <p>Sou muito satisfeito em ser cliente de vocês. Não é toda empresa que trata o cliente desse modo. Tenho recebido muitos elógios sobre os nossos canteiros de obra sobre a organização e segurança, ficamos muito seguros em adquirir nosso containers com a <strong>Suporte</strong>. </p>
+
                         </div>
                     </div>
                 </div>
@@ -384,8 +362,9 @@
                             <i class="fa fa-quote-left"></i>
                         </div>
                         <div class="testimonial-info">
-                            <p>Lorem Ipsum is simply dummy text of the printing and pesetting to industry. Lorem Ipsum has been the industry's standard dummy tet ever since they 1500s, </p>
-                            <h5>Jhon Doe | CTO, GridBootstrap</h5>
+                            <h5>Luiz Guaritá Neto | Sócio Proprietário - RCG</h5>
+                            <p>Faço questão de deixar meu depoimento a está excelente empresa. Acho importante sabermos reconhecer um bom serviço e elogiá-lo para que possa servir de estímulo e a Suporte Container continue sempre sempre no alto padrão de qualidade </p>
+
                         </div>
                     </div>
                 </div>
@@ -396,42 +375,9 @@
                             <i class="fa fa-quote-left"></i>
                         </div>
                         <div class="testimonial-info">
-                            <p>Lorem Ipsum is simply dummy text of the printing and pesetting to industry. Lorem Ipsum has been the industry's standard dummy tet ever since they 1500s, </p>
-                            <h5>Stephen Lee | Marksell LTD.</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="right-content">
-                    <div class="testimonial">
-                        <div class="testimonial-icon">
-                            <i class="fa fa-quote-left"></i>
-                        </div>
-                        <div class="testimonial-info">
-                            <p>Lorem Ipsum is simply dummy text of the printing and pesetting to industry. Lorem Ipsum has been the industry's standard dummy tet ever since they 1500s, </p>
-                            <h5>Jhon Hog | VC, Baselion</h5>
-                        </div>
-                    </div>
-                </div>
+                            <h5>Daniel Belli | Presidente - Grupo Carthago</h5>
+                            <p>Quero agradecer imensamente pela eficiência pela qual fui atendido desde o primeiro contato com a empresa. Indicarei a Suporte para meus clientes e parceiros.  Desejo boa sorte e sucesso pra vocês.   </p>
 
-                <div class="left-content">
-                    <div class="testimonial">
-                        <div class="testimonial-icon">
-                            <i class="fa fa-quote-left"></i>
-                        </div>
-                        <div class="testimonial-info">
-                            <p>Lorem Ipsum is simply dummy text of the printing and pesetting to industry. Lorem Ipsum has been the industry's standard dummy tet ever since they 1500s, </p>
-                            <h5>Mark Lee | CEO, ABC Design</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="right-content">
-                    <div class="testimonial">
-                        <div class="testimonial-icon">
-                            <i class="fa fa-quote-left"></i>
-                        </div>
-                        <div class="testimonial-info">
-                            <p>Lorem Ipsum is simply dummy text of the printing and pesetting to industry. Lorem Ipsum has been the industry's standard dummy tet ever since they 1500s, </p>
-                            <h5>Mard Devid | Aricell Developer</h5>
                         </div>
                     </div>
                 </div>

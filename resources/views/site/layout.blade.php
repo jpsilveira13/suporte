@@ -11,7 +11,7 @@
 
     <title>Suporte | Franquia, Locação e Aluguel de Containers</title>
     <meta name="description" content="">
-
+    <link rel="icon" href="{{'/images/favicon.ico'}}" type="image/x-icon">
 
 
     <!-- CSS -->
@@ -48,13 +48,13 @@
                 <div class="col-sm-6">
                     <div class="info-box">
                         <span class="icon-left"><i class="fa fa-envelope"></i></span>
-                        <a href="#">contato@suportecontainer.com.br</a>
+                        <a href="#">comercial@suportecontainer.com.br</a>
                     </div>
                 </div>
 
                 <div class="col-sm-6">
                     <div class="info-box pull-right">
-                        <span>(34) XXXX.XXXX</span>
+                        <span>(34) 99309-8221</span>
                         <span class="icon-right"><i class="fa fa-phone"></i></span>
                     </div>
                 </div>
@@ -72,7 +72,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="logo" href="{{url('/')}}"><img class="img-responsive" src="{{url('images/container/logopadrao.png')}}" alt="Logo"></a>
+                    <a class="logo" href="{{url('/')}}"><img style="width: 66%" class="img-responsive" src="{{url('images/logo.png')}}" alt="Logo"></a>
+
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
@@ -80,7 +81,7 @@
                         <li><a href="{{url('diferenciais')}}">Diferenciais</a></li>
                         <li><a @if(Request::is('sobre')) class="active" @endif href="{{url('sobre')}}">Sobre Nós</a></li>
                         <li><a @if(Request::is('servicos')) class="active" @endif href="{{url('servicos')}}">Serviços</a></li>
-                        <li><a href="#">Projetos</a></li>
+                        <li><a href="{{url('equipamentos')}}">Equipamentos</a></li>
                         <li @if(Request::is('contato')) class="active" @endif><a href="{{url('contato')}}">Contato</a></li>
                     </ul>
                 </div>
@@ -115,10 +116,16 @@
             <img class="img-responsive" src="images/brand/constrenge.png" alt="Brand image">
         </div>
         <div class="brand-image">
-            <img class="img-responsive" src="images/brand/quanta.png" alt="Brand image">
+            <img class="img-responsive" src="images/brand/grupocarthago.jpg" alt="Brand image">
         </div>
     </div>
 </div><!-- brands -->
+<div id="totop" class="botao-form ativo">
+    <i class="fa fa-chevron-right"></i>
+    <a class="btn btn-default transicaoPadrao text-center">COBRIMOS QUALQUER OFERTA!</a>
+    <i class="fa fa-chevron-left"></i>
+
+</div>
 <footer class="footer">
     <div class="contact-section">
         <div class="container">
@@ -154,8 +161,7 @@
                         </div>
                         <div class="box-title">
                             <h3>Fale Conosco</h3>
-                            <p>Telefone: (34) xxxx.xxxx</p>
-                            <p>Celular: (34) xxxx.xxxx</p>
+                            <p>Celular: (34) 99309-8221</p>
                         </div>
                     </div>
                 </div>
@@ -163,7 +169,7 @@
             <div class="row">
                 <div class="footer-logo text-center">
 
-                    <a href="{{url('/')}}"><img class="img-responsive" src="{{url('images/container/logopadrao.png')}}" alt="Logo"></a>
+                    <a href="{{url('/')}}"><img class="img-responsive" src="{{url('images/logofooter.png')}}" alt="Logo"></a>
                 </div>
             </div>
         </div><!-- container -->

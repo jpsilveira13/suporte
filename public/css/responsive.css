@@ -322,7 +322,8 @@
 		font-size:24px;
 	}
 	h2 {
-		font-size:20px;
+		font-size:1.3em!important;
+		letter-spacing: 0!important;
 	}
 	h3 {
 		font-size:16px;
@@ -439,9 +440,7 @@
 	.home-content h1{
 		font-size:18px;
 	}
-	.home-content h2 {
-		font-size:40px
-	}
+
 	.btn.btn-primary {
 		padding-top: 12px;
 		padding-bottom: 12px;

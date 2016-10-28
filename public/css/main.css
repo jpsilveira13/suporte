@@ -270,9 +270,9 @@ a:after, a:before, .btn.btn-primary i,
 
 .logo {
 	position: absolute;
-	top: -99px;
-	left: 50%;
-	margin-left: -114px;
+	top: -64px;
+	left: 55%;
+	margin-left: -136px;
 	z-index: 9999;
 }
 
@@ -573,10 +573,12 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 .services .service {
-	padding:15px 24px;
+	padding: 13px 0;
 	font-size: 13px;
 	font-family: 'montserratregular';
-	min-height:165px;
+	min-height: 120px;
+	position: relative;
+	bottom:-25px;
 }
 
 .crane-lifting,
@@ -679,10 +681,41 @@ a:after, a:before, .btn.btn-primary i,
 }
 
 .service-title {
-	background-color: #e21115 ;
-	padding:25px;
+	background-color: #e21115;
+	padding: 24px;
 	position: relative;
+	z-index: 99;
+	/* margin-bottom: 14px; */
+	top: -1px;
 }
+
+@-webkit-keyframes chamativo {
+	0%  { background:#f7921e; }
+	50% { background:#2C3E50; }
+	100% { background:#f7921e; }
+}
+@keyframes chamativo {
+	0%  { background:#f7921e; }
+	50% { background:#2C3E50; }
+	100% { background:#f7921e; }
+}
+
+
+
+
+
+.totop{
+	webkit-animation: chamativo 1.5s ease-in-out infinite;
+	animation: chamativo 1.5s
+}
+.transicaoPadrao {
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
 
 .service-title h4 {
 	color: #fff;
@@ -2014,8 +2047,10 @@ a:after, a:before, .btn.btn-primary i,
  ========================================================================== */
 
 .contact-section {
-	background-color: #273747;
+
 	padding-bottom: 40px;
+	background-color: #212f3c;
+	border-bottom: 1px solid #d2d2d2;
 }
 
 .contact-info {
@@ -2200,6 +2235,8 @@ a:after, a:before, .btn.btn-primary i,
 
 .about-info .info-list li {
 	margin-bottom: 15px;
+	color: #000;
+	font-weight: 100;
 }
 
 .about-info .info-list i {
@@ -3579,6 +3616,32 @@ img.mfp-img {
 	color:#f2cc2b;
 }
 
+#totop {
+	position: fixed;
+	bottom: 20px;
+	right: 60px;
+	max-width: 300px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	visibility: hidden;
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+	z-index: 99999999;
+}
+
+#totop.ativo {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	visibility: visible;
+}
+
+.estilo-novo{
+	position: relative!important;
+	background-image: url(../images/bg/brand-bg.jpg)!important;
+}
 
 /* ==========================================================================
 								THE END OF CSS
