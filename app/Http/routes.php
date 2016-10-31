@@ -36,3 +36,16 @@ Route::get('diferenciais',function(){
 Route::get('equipamentos',function(){
     return view('site.equipamentos');
 });
+Route::get('container',function(){
+    return view('site.container');
+});
+
+Route::get('/email',[
+    'uses' => 'SiteController@sendEmailTest'
+
+]);
+
+Route::post('contato',[
+    'as' => 'contato',
+    'uses' => 'SiteController@contato'
+]);

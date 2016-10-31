@@ -78,10 +78,11 @@
                 <div class="collapse navbar-collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li @if(Request::is('/')) class="active" @endif><a href="{{url('/')}}">Home</a></li>
-                        <li><a href="{{url('diferenciais')}}">Diferenciais</a></li>
+                        <li @if(Request::is('container')) class="active" @endif><a href="{{url('container')}}">Containers</a></li>
+                        <li><a href="{{url('diferenciais')}}">Diferencial</a></li>
                         <li><a @if(Request::is('sobre')) class="active" @endif href="{{url('sobre')}}">Sobre Nós</a></li>
-                        <li><a @if(Request::is('servicos')) class="active" @endif href="{{url('servicos')}}">Serviços</a></li>
-                        <li><a href="{{url('equipamentos')}}">Equipamentos</a></li>
+                        <li><a @if(Request::is('servicos')) class="active" @endif href="{{url('servicos')}}">Serviço</a></li>
+                        <li><a href="{{url('equipamentos')}}">Equipamento</a></li>
                         <li @if(Request::is('contato')) class="active" @endif><a href="{{url('contato')}}">Contato</a></li>
                     </ul>
                 </div>

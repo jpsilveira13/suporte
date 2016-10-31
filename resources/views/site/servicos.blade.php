@@ -55,7 +55,7 @@
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" class="active"><a href="#residential" data-toggle="tab">Container Marítimo</a></li>
                     <li role="presentation"><a href="#industrial" data-toggle="tab">Container Reefer</a></li>
-                    <li role="presentation"><a href="#plumbing" data-toggle="tab">Manutenção, reparos e modificações</a></li>
+                    <li role="presentation"><a href="#plumbing" data-toggle="tab">Manutenção e modificação</a></li>
                     <li role="presentation"><a href="#shipment" data-toggle="tab">Casas, módulos e reparos</a></li>
                 </ul>
             </div>
